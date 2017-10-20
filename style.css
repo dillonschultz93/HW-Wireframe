@@ -1,0 +1,45 @@
+body {
+    background-color: #777;
+    width: 960px;
+}
+
+header {
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+aside {
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 465px;
+    height: 430px;
+    margin-top: 10px;
+    display: block;
+}
+
+section {
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 495px;
+    height: 430px;
+    margin-top: 10px;
+    display: block;
+}
+
+footer {
+    background-color: #ebebeb;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
