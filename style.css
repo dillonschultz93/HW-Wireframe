@@ -6,14 +6,12 @@ body {
 header {
     background-color: #ebebeb;
     padding: 10px;
-    width: 90%;
     margin: auto;
 }
 
 nav {
     background-color: #ebebeb;
     padding: 10px;
-    width: 90%;
     margin: auto;
     margin-top: 10px;
 }
@@ -21,10 +19,10 @@ nav {
 aside {
     background-color: #ebebeb;
     padding: 10px;
-    width: 465px;
+    width: 410px;
     height: 430px;
     margin-top: 10px;
-    display: block;
+    float: right;
 }
 
 section {
@@ -33,13 +31,28 @@ section {
     width: 495px;
     height: 430px;
     margin-top: 10px;
-    display: block;
+    float: left;
+}
+
+article {
+    background-color: #777;
+    margin: auto;
+    height: auto;
+    padding: 5px;
 }
 
 footer {
     background-color: #ebebeb;
     padding: 10px;
-    width: 90%;
     margin: auto;
     margin-top: 10px;
+}
+
+.clear {
+    display: inline-block;
+    clear: both;
+}
+
+nav h1 {
+    font-family: Helvetica sans-serif;
 }
